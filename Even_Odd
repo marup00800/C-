@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int student = 21;
+
+    int reminder = student % 2;
+
+    cout << reminder; // 0 means Even, 1 means Odd
+
+    return 0;
+}
